@@ -52,7 +52,7 @@ ELUM.Distance:  136		# Negative number means it doesn't exist by default (in mm)
 
 # T1 cut
 T1.Min: 0e9			# for cutting on the proton impact time
-T1.Max: 5e9		# (units of ns)
+T1.Max: 10e9		# (units of ns)
 
 # Laser mode ON/OFF
 #LaserMode: 2		# 0 = laser off only
