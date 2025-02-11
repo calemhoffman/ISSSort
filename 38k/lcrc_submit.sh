@@ -20,6 +20,8 @@
 echo "ISSSort Running in Parallel"
 dir=$(pwd)
 echo "${dir}"
+cd ${dir}/iss_crh/38k
+echo "$(pwd)"
 
 count=0
 for i in {90..99}
