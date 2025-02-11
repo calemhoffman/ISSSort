@@ -83,9 +83,9 @@ T1.Max: 5e9		# (units of ns)
 
 
 ## E vs Z cut files
-NumberOfEvsZCuts: 1		
-EvsZCut_0.File: /Users/calemhoffman/Research/isolde/cals/2MeV_EvZ_thres.root
-EvsZCut_0.Name: CUTG
+NumberOfEvsZCuts: 0		
+#EvsZCut_0.File: /Users/calemhoffman/Research/isolde/cals/2MeV_EvZ_thres.root
+#EvsZCut_0.Name: CUTG
 
 ## Histogramming options
 #Hists.ArrayMode: 0			# 0 - demand p/n coincidences, 1 - p-side only
