@@ -480,8 +480,8 @@ public:
 	
 	// Set function
 	inline void SetRxEvent( std::shared_ptr<ISSReaction> react, double E, double ebistime, double t1time, bool laserflag ){
-		theta_cm = react->GetThetaLab();
-		theta_lab = react->GetThetaCM();
+		theta_cm = react->GetThetaCM();
+		theta_lab = react->GetThetaLab();
 		z = react->GetDistance();
 		z_meas = react->GetDistanceMeasured();
 		phi = react->GetPhi();
