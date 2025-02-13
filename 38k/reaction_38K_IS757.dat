@@ -88,5 +88,5 @@ NumberOfEvsZCuts: 0
 #EvsZCut_0.Name: CUTG
 
 ## Histogramming options
-Hists.ArrayMode: 1			# 0 - demand p/n coincidences, 1 - p-side only
+Hists.ArrayMode: 0			# 0 - demand p/n coincidences, 1 - p-side only
 Hists.OutputTree: 1			# 0 - off, 1 - reaction data output to tree
