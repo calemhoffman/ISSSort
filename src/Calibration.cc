@@ -134,7 +134,7 @@ void ISSCalibration::ReadCalibration() {
 				fAsicGain[mod][asic][chan] = config->GetValue( Form( "asic_%d_%d_%d.Gain", mod, asic, chan ), fAsicGainDefault );
 				fAsicGainQuadr[mod][asic][chan] = config->GetValue( Form( "asic_%d_%d_%d.GainQuadr", mod, asic, chan ), fAsicGainQuadrDefault );
 				fAsicThreshold[mod][asic][chan] = config->GetValue( Form( "asic_%d_%d_%d.Threshold", mod, asic, chan ), 0 );
-
+				// std::cout << fAsicThreshold[mod][asic][chan] << std::endl;
 			}
 			
 		}
