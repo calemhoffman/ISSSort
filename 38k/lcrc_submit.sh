@@ -24,7 +24,7 @@ cd ${dir}/iss_crh/38k
 echo "$(pwd)"
 
 count=0
-for i in {100..109}
+for i in {20..199}
 do
     ./sort_IS757_lcrc.sh $i & #
     count=$((count+1))
