@@ -2,7 +2,7 @@
 # These options are MANDATORY in LCRC; Your qsub will fail if you don't provide them.
 #PBS -A HELIOS
 #PBS -l select=1
-#PBS -l walltime=24:00:00
+#PBS -l walltime=48:00:00
 
 # Highly recommended
 # The first 15 characters of the job name are displayed in the qstat output:
@@ -26,7 +26,7 @@ echo "$(pwd)"
 count=0
 for i in {4..191}
 do
-    ./sort_IS757_lcrc.sh $i & #
+    ./sort_IS757_lcrc.sh $i -e & #
     count=$((count+1))
     echo "Counter Status: $count"
     if [ $count -eq 35 ]; then
