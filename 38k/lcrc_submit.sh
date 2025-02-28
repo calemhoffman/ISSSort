@@ -26,7 +26,7 @@ echo "$(pwd)"
 count=0
 for i in {4..191}
 do
-    ./sort_IS757_lcrc.sh $i -e & #
+    ./sort_IS757_lcrc.sh $i & #
     count=$((count+1))
     echo "Counter Status: $count"
     if [ $count -eq 35 ]; then
